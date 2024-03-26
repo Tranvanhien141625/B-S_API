@@ -1,0 +1,9 @@
+fastapi==0.110.0
+joblib==1.3.2
+pandas==1.1.3
+uvicorn==0.29.0
+pydantic==2.6.4
+scikit-learn==1.2.2
+
+https://127.0.0.1:8000/docs
+http://127.0.0.1:8000/docs#/default/predict_house_predict_post
