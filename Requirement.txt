@@ -7,3 +7,17 @@ scikit-learn==1.2.2
 
 https://127.0.0.1:8000/docs
 http://127.0.0.1:8000/docs#/default/predict_house_predict_post
+
+Ví dụ
+{
+  "Phường": "Phường Tây Mỗ",
+  "Quận": "Quận Nam Từ Liêm",
+  "Loại_hình_nhà_ở": "Nhà ngõ, hẻm",
+  "Giấy_tờ_pháp_lý": "Đã có sổ",
+  "Dài": 10,
+  "Rộng": 6,
+  "Diện_tích": 60,
+  "Số_phòng_ngủ": 3,
+  "Số_tầng": 3
+}
+Đầu thông tin ghi kèm Phường, Quận và viết hoa đầu từ. 
