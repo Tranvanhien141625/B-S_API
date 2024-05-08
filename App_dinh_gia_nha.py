@@ -18,7 +18,9 @@ class Dinhgia(BaseModel):
     Quận: str
     Phường: str
 
-
+#numerical_cols = ['Diện tích', 'Số phòng ngủ', 'Số phòng toilet', 'Số tầng']
+# categorical_cols = ['balcony_direction',	'house_direction',	'property_legal_document',	'furniture','Đường','Tỉnh',	'Quận',	'Phường']  # thay thế các giá trị thực tế của bạn
+#categorical_cols = ['Kiểu nhà','Giấy tờ pháp lý','Nội thất','Đường','Tỉnh',	'Quận',	'Phường']  # thay thế các giá trị thực tế của bạn
 
 app = FastAPI()
 # Load mô hình đã lưu, và đảm bảo dấu ngoặc đóng chính xác
