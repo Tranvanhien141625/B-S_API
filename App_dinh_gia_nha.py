@@ -10,7 +10,6 @@ class Dinhgia(BaseModel):
     Số phòng ngủ: float
     Số phòng toilet: float
     Số tầng: float
-    Kiểu nhà: str
     Giấy_tờ_pháp_lý: str
     Nội thất: str
     Đường: str
