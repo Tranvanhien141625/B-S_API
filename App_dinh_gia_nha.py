@@ -14,9 +14,8 @@ class Dinhgia(BaseModel):
     area: float
     way_in: float
     frontage: float
-    bedroom: float
-    toilet: float
     floors: float
+    Đường: str
     Phường: str
     Quận: str
     Tỉnh: str
